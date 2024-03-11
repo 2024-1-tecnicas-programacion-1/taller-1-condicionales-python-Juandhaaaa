@@ -16,6 +16,18 @@ class TestAnnosBisiestos(unittest.TestCase):
         valor_esperado = "1988 es bisiesto"
         valor_actual = evaluar(1988)
         self.assertEqual(valor_esperado, valor_actual)
+
+class TestAnnosBisiestos(unittest.TestCase):
+    def test_2000(self):
+        valor_esperado = "2000 es bisiesto"
+        valor_actual = evaluar(2000)
+        self.assertEqual(valor_esperado, valor_actual)
+
+class TestAnnosBisiestos(unittest.TestCase):
+    def test_1900(self):
+        valor_esperado = "1900 no es bisiesto"
+        valor_actual = evaluar(1900)
+        self.assertEqual(valor_esperado, valor_actual)
     
     # TODO: Agrega tus otros casos de prueba aquí
     

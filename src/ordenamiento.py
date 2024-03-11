@@ -1,8 +1,12 @@
+
+    
 def evaluar(numero1, numero2, numero3, numero4):
     # TODO: Coloca aquí el código del ejercicio 5: Ordenamiento
-    return "";
+    numeros.sort()
+    return "nuemros en orden ascendente: " + ' '.join(map(str,numeros));
+ # Ordenar la lista de numeros
 
-if __name__ == '__main__':
+if name == 'main':
     print("Número 1:", end="")
     numero1 = int(input())
     print("Número 2:", end="")
