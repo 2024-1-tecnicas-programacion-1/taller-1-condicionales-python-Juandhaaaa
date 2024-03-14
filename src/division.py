@@ -1,5 +1,4 @@
 def evaluar(dividendo, divisor):
-    # TODO: Coloca aquí el código del ejercicio 3: Division
     cociente = dividendo // divisor
     residuo = dividendo % divisor
 
@@ -11,7 +10,7 @@ def evaluar(dividendo, divisor):
     print("Cociente:", cociente)
     print("Residuo:", residuo)
 
-if __name__ == '__main':
+if __name__ == '__main__':
     dividendo = int(input("Dividendo: "))
     divisor = int(input("Divisor: "))
 
